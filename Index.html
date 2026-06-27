@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boost Service</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="topbar">
+
+<div class="left">
+<i class="fa-solid fa-headset"></i>
+24/7 LIVE SUPPORT
+</div>
+
+<div class="right">
+<i class="fa-solid fa-comments"></i>
+CHAT WITH AGENT
+</div>
+
+</div>
+
+<div class="status">
+
+<span>● SYSTEM STATUS : ONLINE</span>
+
+<span>|</span>
+
+<span>ENCRYPTION : AES-256</span>
+
+<span>|</span>
+
+<span>NODE : SERVER-01</span>
+
+</div>
+
+<section class="hero">
+
+<div class="icon">
+
+<i class="fa-solid fa-shield-halved"></i>
+
+</div>
+
+<h1>Mobile Boost Service</h1>
+
+<p>Instant Approval • Secure Access</p>
+
+<div class="inputBox">
+
+<i class="fa-solid fa-phone"></i>
+
+<input
+type="tel"
+id="phone"
+placeholder="Enter Mobile Number">
+
+</div>
+
+<button id="checkBtn">
+
+Check Eligibility
+
+<i class="fa-solid fa-chevron-right"></i>
+
+</button>
+
+</section>
+
+<section class="loading hidden" id="loading">
+
+<div class="loader"></div>
+
+<h2>Connecting...</h2>
+
+<p>Checking secure database...</p>
+
+</section>
+
+<section class="approved hidden" id="approved">
+
+<div class="tick">
+
+<i class="fa-solid fa-circle-check"></i>
+
+</div>
+
+<h2>Congratulations!</h2>
+
+<h3>You are eligible.</h3>
+
+<p id="displayNumber"></p>
+
+<button id="continueBtn">
+
+Continue
+
+</button>
+
+</section>
+
+<section class="reviews">
+
+<h2>
+
+<i class="fa-solid fa-comment-dots"></i>
+
+Real-Time User Feedback
+
+</h2>
+
+<div class="review">
+
+<div class="avatar">DK</div>
+
+<div>
+
+<h3>David K.</h3>
+
+<p>My request was processed very quickly. Highly recommended.</p>
+
+</div>
+
+</div>
+
+<div class="review">
+
+<div class="avatar">MA</div>
+
+<div>
+
+<h3>Mercy A.</h3>
+
+<p>Simple and professional service.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="faq">
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="card">
+
+<h3>How long does it take?</h3>
+
+<p>Usually within 5–10 minutes.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Is my PIN required?</h3>
+
+<p>Only on the official prompt sent to your phone.</p>
+
+</div>
+
+</section>
+
+<div class="chat">
+
+<div class="circle">
+
+<i class="fa-solid fa-headset"></i>
+
+</div>
+
+<div>
+
+<span>Support</span>
+
+<h3>Chat with Agent</h3>
+
+</div>
+
+</div>
+
+<div class="popup" id="popup">
+
+⚡ Brian K. (07******12) completed a request just now.
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
